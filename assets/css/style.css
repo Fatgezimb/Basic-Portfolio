@@ -1,0 +1,30 @@
+
+body {
+    background-color: aqua;
+    display: inline-block;
+    font-size: 2vw;
+}
+
+a {
+    text-decoration: none;
+    font-size: 30px;
+    color: brown;
+    display: inline-flex;
+}
+a:hover {
+    opacity: unset;
+    text-decoration: underline;
+}
+
+img   {
+    size: 1vh;
+    size: 1vw
+}
+
+
+
+@media (min-width: 1000px){
+    body {
+        background-color: blueviolet;
+    }
+}
